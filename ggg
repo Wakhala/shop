@@ -1,0 +1,151 @@
+<header>
+  <img src="logo.png" alt="" />
+  <h2>The WhiteBike.</h2>
+</header>
+
+<div>
+  <h4>CV/forms/letters/web/... developer</h4>
+  <p>
+    Do you want a professinal CV/forms/letters/web/... <br />
+    at affordable prices, printed and droped at your door step?... Talk to us
+  </p>
+  <em>Call/Whatsapp: +254 792 804 618</em>
+</div>
+
+<head>
+  <h3>Enter you details</h3>
+</head>
+
+<div>
+  <label for="order">What is your request or order? </label>
+  <input type="text" id="order" required name="order" />
+</div>
+
+<div>
+  <label for="name">Name</label>
+  <input type="text" id="name" required name=" name" />
+</div>
+
+<div>
+  <label for="email">Email</label>
+  <input type="email" id="email" required name="email" />
+</div>
+
+<div>
+  <label for="phoneNumber">phone Number</label>
+  <input type="tel" id="phoneNumber" required name="phone" />
+</div>
+
+<div>
+  <label for="education">education</label>
+  <select name="education" id="education">
+    <option value="university">university</option>
+    <option value="college">college</option>
+    <option value="high school">high school</option>
+    <option value="primary school">primary school</option>
+  </select>
+</div>
+
+<div>
+  <label for="status">status</label>
+  <select name="status" id="status">
+    <option value="single">single</option>
+    <option value="married">married</option>
+    <option value="divorced">divorced</option>
+    <option value="dating">dating</option>
+  </select>
+</div>
+
+<div>
+  <label for="location">Where are you located?</label>
+  <input type="text" id="location" required name="location" />
+</div>
+
+<div>
+  <label for="aob">Provide any necessary information</label>
+  <textarea name="aob" id="aob" cols="30" rows="10"></textarea>
+</div>
+
+<div>
+  <button type="submit">SUBMIT</button>
+</div>
+<hr />
+<footer>&#169;TheWhiteBike</footer>
+
+//fffffffffffffffffffffffffffffffffffffffffff
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TWB-SHOP/market</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <form action="" method="post" name="google.sheet" autocomplete="off">
+      <header>
+        <img loading="lazy" src="logo.png" alt="" class="logo" />
+        <h2>The WhiteBike.</h2>
+
+        <a href="help.html">
+          <div>
+            <img class="icon" src="conversation.png" alt="" />
+            <label for="icon" class="icon2">help</label>
+          </div>
+        </a>
+      </header>
+
+      <div class="info">
+        <h4>MARKET PLACE</h4>
+
+        <div>
+          <label for="name">NAME</label>
+          <input type="text" id="name" required name="name" />
+        </div>
+
+        <div>
+          <label for="tel">PHONE NUMBER</label>
+          <input type="number" id="tel" required name="tel" />
+        </div>
+        <hr />
+
+        <div class="selection" name="items">
+          <div>
+            <label class="market" for="taughfee">
+              <img class="market" src="taugfee.jpeg" alt="" />
+            </label>
+            <input
+              type="checkbox"
+              name="taughfee"
+              id="taughfee"
+              value="tauhfee600,"
+            />
+          </div>
+
+          <div>
+            <label class="market" for="safari">
+              <img class="market" src="safari.jpeg" alt="" />
+            </label>
+            <input
+              type="checkbox"
+              name="safari"
+              id="safari"
+              value="safariboot800,"
+            />
+          </div>
+        </div>
+      </div>
+
+      <input type="submit" value="Order" class="submit" id="sub" />
+
+      <em>Call/Whatsapp: +254 792 804 618</em>
+
+      <a href="index2.html"><footer>&#169;TheWhiteBike</footer></a>
+    </form>
+    <script src="pics.js"></script>
+  </body>
+</html>

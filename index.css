@@ -1,0 +1,341 @@
+body {
+    background: rgb(0, 0, 0);
+    justify-content: center;
+   display: flex;
+}
+
+
+
+#aob {
+    background-color: rgb(221, 255, 255);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    background-image: url(back2.jpg);
+    background-size: cover;
+    height: 100%;
+    flex-direction: column;
+    padding: 20px 20px;
+    row-gap: 10px;
+    cursor: pointer;
+    height: fit-content;
+    
+}
+
+.order {
+    background-color: rgb(201, 131, 209);
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+    object-fit: cover;
+    width: fit-content;
+    
+   
+}
+
+#sub1 {
+    width: 100px;
+    padding: 0;
+    margin-left: 0;
+    display: block;
+    background-color: chartreuse;
+}
+
+#sub1:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.order2 {
+    background-color: rgb(244, 105, 105);
+    width: 100px;
+    padding: 5px;
+    object-fit: cover;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.order2:hover, .order:hover {
+    background-color: rgb(17, 17, 71);
+}
+
+
+.ad {
+    background: none;
+}
+
+.data  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    row-gap: 5px;
+    
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+}
+
+.gikomba {
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    column-gap: 20%;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    background-color: bisque;
+    padding: 5%;
+    border-radius: 20px;
+}
+
+.icon:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.icon2 {
+
+    display: flex;
+    width: 40px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+}
+
+
+.advert {
+    padding: 0 5%;
+    display: flex;
+    column-gap: 20px;
+    
+}
+
+.display {
+    width: 90%;
+    background: rgb(255, 180, 133);
+    color: black;
+    height: 20px;
+    border-radius: 20px;
+    text-align: right;
+}
+
+.selection {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    padding: 0 10%;
+}
+
+.market {
+    color: blue;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.ads {
+    width: 100px;
+}
+
+
+ol {
+    background: rgb(255, 244, 225);
+    padding: 5%;
+}
+
+.home {
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+    height: 20px;
+    box-shadow: -5px 5px 5px rgb(255, 255, 255);
+}
+
+.pics {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+
+.home:hover {
+    background-color: rgb(77, 0, 0);
+    box-shadow: 5px 5px 5px black;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 10px;
+    background: rgb(255, 108, 108);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+head {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-style: italic;
+}
+#payment {
+    background-color: rgb(255, 244, 244);
+}
+
+.info {
+    background-image: url(44.jpg);
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-size:cover;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 80%;
+}
+
+.menu {
+    background-image: url(meat.jpg);
+    background-size:cover;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 80%;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10%;
+}
+
+em{
+    color: rgb(0, 151, 156);
+    width: fit-content;
+    font-weight: bold;
+    font-weight: bold;
+    background-color: bisque;
+}
+
+h2::after {
+    content: 'LiX';
+    font-style: italic;
+    color: rgb(190, 0, 0);
+}
+p {
+    color: rgb(219, 8, 8);
+    font-weight: bold;
+}
+
+input {
+    background-color: rgb(255, 248, 248);
+}
+
+h3 {
+    color: rgb(220, 0, 0);
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+h4 {
+    color: rgb(0, 0, 73);
+    text-decoration: underline;
+}
+
+img {
+    
+    width: 60px;
+    height: 50px;
+    object-fit: cover;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+label {
+    text-decoration:none;
+    display: block;
+    width:fit-content;
+    color: rgb(12, 112, 0);
+    font-weight: bold;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    background: rgb(0, 0, 134);
+    color: azure;
+    margin-left: 30%;
+
+}
+button:hover {
+    background:rgb(223, 0, 22);
+}
+
+footer {
+    font-style: italic;
+    width: 100%;
+    margin-left: 30%;
+}
+
+.submit {
+    width: 150px;
+    font-weight: bolder;
+    margin-left: 20%;
+    background-color: rgb(216, 0, 0);
+}
+.submit:hover {
+    background-color: rgb(21, 0, 138);
+    color: azure;
+}
+
+footer {
+    color: rgb(58, 255, 133);
+    background-color: rgb(234, 0, 0);
+    width: 130px;
+}
+
+.dsp {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.dsp2 {
+    width: 80px;
+}
+
+#market {
+    display: flex;
+    column-gap: 0px;
+}
+
+#market2 {
+    display: flex;
+    column-gap: 0px;
+    column-gap: 20px;
+}
+
+a {
+    display: flex;
+}
