@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TWB-SHOP/market</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <form action="" method="post" name="google.sheet" autocomplete="off">
+      <header>
+        <img loading="lazy" src="logo.png" alt="" class="logo" />
+        <h2>The WhiteBike.</h2>
+
+        <a href="help.html">
+          <div>
+            <img class="icon" src="conversation.png" alt="" />
+            <label for="icon" class="icon2">help</label>
+          </div>
+        </a>
+      </header>
+
+      <div class="info">
+        <h4>MARKET PLACE,</h4>
+        <em>select your items</em>
+        <div>
+          <label for="name">NAME</label>
+          <input type="text" id="name" required name="name" />
+        </div>
+
+        <div>
+          <label for="tel">PHONE NUMBER</label>
+          <input type="number" id="tel" required name="tel" />
+        </div>
+
+        <div>
+          <textarea
+            required
+            placeholder="selected items"
+            name="items"
+            id="display"
+            cols="30"
+            rows="5"
+          ></textarea>
+          <input type="submit" value="Order" class="submit" id="sub" />
+        </div>
+
+        <hr />
+
+        <div class="selection">
+          <div>
+            ksh. 600
+            <label class="market" for="taughfee">
+              <img class="market" src="taugfee.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'toughfees600,'"
+              type="checkbox"
+              id="taughfee"
+              value="tauhfee600,"
+            />
+          </div>
+
+          <div>
+            ksh. 800
+            <label class="market" for="safari">
+              <img class="market" src="safari.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'safariboot800,'"
+              type="checkbox"
+              id="safari"
+              value="safariboot800,"
+            />
+          </div>
+        </div>
+
+        <div class="selection">
+          <div>
+            ksh. 700
+            <label class="market" for="official">
+              <img class="market" src="office.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'official700,'"
+              type="checkbox"
+              id="official"
+            />
+          </div>
+
+          <div>
+            ksh. 500
+            <label class="market" for="teenTaughfee">
+              <img class="market" src="teenTaughfee.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'teenToughfee500,'"
+              type="checkbox"
+              id="teenTaughfee"
+              value="safariboot800,"
+            />
+          </div>
+        </div>
+
+        <div class="selection">
+          <div>
+            ksh. 500
+            <label class="market" for="redtaughfee">
+              <img class="market" src="redtaughfee.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'redtaughfee500,'"
+              type="checkbox"
+              id="redtaughfee"
+            />
+          </div>
+
+          <div>
+            ksh. 500
+            <label class="market" for="childtaughfee">
+              <img class="market" src="childtaughfee.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'childtaughfee500,'"
+              type="checkbox"
+              id="childtaughfee"
+              value="safariboot800,"
+            />
+          </div>
+        </div>
+
+        <div class="selection">
+          <div>
+            ksh. 1000
+            <label class="market" for="safariboot1">
+              <img class="market" src="safariboot1.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'safariboot1(1000),'"
+              type="checkbox"
+              id="safariboot1"
+            />
+          </div>
+
+          <div>
+            ksh. 1000
+            <label class="market" for="safariboot2">
+              <img class="market" src="safariboot2.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'safariboot2(1000),'"
+              type="checkbox"
+              id="safariboot2"
+              value="safariboot800,"
+            />
+          </div>
+        </div>
+
+        <div class="selection">
+          <div>
+            ksh. 600
+            <label class="market" for="safariboot3">
+              <img class="market" src="safariboot3.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'safariboot3(600),'"
+              type="checkbox"
+              id="safariboot3"
+            />
+          </div>
+
+          <div>
+            ksh. 600
+            <label class="market" for="safariboot4">
+              <img class="market" src="safariboot4.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'safariboot4(600),'"
+              type="checkbox"
+              id="safariboot4"
+              value="safariboot600,"
+            />
+          </div>
+        </div>
+
+        <div class="selection">
+          <div>
+            ksh. 600
+            <label class="market" for="safariboot5">
+              <img class="market" src="safariboot5.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'safariboot5(600),'"
+              type="checkbox"
+              id="safariboot5"
+            />
+          </div>
+
+          <div>
+            ksh. 600
+            <label class="market" for="bata1">
+              <img class="market" src="bata1.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'bata1(600),'"
+              type="checkbox"
+              id="bata1"
+              value="bata1600,"
+            />
+          </div>
+        </div>
+
+        <div class="selection">
+          <div>
+            ksh. 700
+            <label class="market" for="official1">
+              <img class="market" src="official1.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'official1(700),'"
+              type="checkbox"
+              id="official1"
+            />
+          </div>
+
+          <div>
+            ksh. 700
+            <label class="market" for="official2">
+              <img class="market" src="official2.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'official2(700),'"
+              type="checkbox"
+              id="official2"
+              value="official2700,"
+            />
+          </div>
+        </div>
+
+        <div class="selection">
+          <div>
+            ksh. 600
+            <label class="market" for="official3">
+              <img class="market" src="official3.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'official3(600),'"
+              type="checkbox"
+              id="official3"
+            />
+          </div>
+
+          <div>
+            ksh. 600
+            <label class="market" for="official4">
+              <img class="market" src="official4.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'official4(600),'"
+              type="checkbox"
+              id="official4"
+              value="official2700,"
+            />
+          </div>
+        </div>
+
+        <div class="selection">
+          <div>
+            ksh. 1000
+            <label class="market" for="malikia1">
+              <img class="market" src="malikia1.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'malikia1(1000),'"
+              type="checkbox"
+              id="malikia1"
+            />
+          </div>
+
+          <div>
+            ksh. 1000
+            <label class="market" for="malikia2">
+              <img class="market" src="malikia2.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'malikia2(1000),'"
+              type="checkbox"
+              id="malikia2"
+              value="official2700,"
+            />
+          </div>
+        </div>
+
+        <div class="selection">
+          <div>
+            ksh. 1000
+            <label class="market" for="malikia3">
+              <img class="market" src="malikia3.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'malikia3(1000),'"
+              type="checkbox"
+              id="malikia3"
+            />
+          </div>
+
+          <div>
+            ksh. 700
+            <label class="market" for="malikia4">
+              <img class="market" src="malikia4.jpeg" alt="" />
+            </label>
+            <input
+              onclick="items.value += 'malikia4(1000),'"
+              type="checkbox"
+              id="malikia4"
+              value="official2700,"
+            />
+          </div>
+        </div>
+      </div>
+
+      <em>Call/Whatsapp: +254 792 804 618</em>
+
+      <a href="index2.html"><footer>&#169;TheWhiteBike</footer></a>
+    </form>
+    <script src="pics.js"></script>
+  </body>
+</html>
